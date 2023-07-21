@@ -15,7 +15,7 @@ def impDados():
     arquivo.write("\n Telefone: %s" % vfone.get())
     arquivo.write("\n E-mail..: %s" % vemail.get())
     arquivo.write("\n Obs.....: %s" % vobs.get("1.0", END))
-    arquivo.write("\n\n")
+    arquivo.write("\n \n")
 
 
 Label(app, text="Nome", background="#dde", foreground="#009", anchor="w").place(x=10, y=10, width=100, height=20)
